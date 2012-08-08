@@ -4,7 +4,7 @@ class Qsort
   attr_accessor :ary
 
   def initialize(ary)
-    @ary = Marshal.load(Marshal.dump(ary))
+    @ary = ary
   end
 
   def sort(b, e)
