@@ -1,0 +1,34 @@
+pryはdebug用のライブラリなんでrequireしない
+
+attr_accessorじゃなくてattr_reader
+
+loop do
+end
+
+retというlocal変数がよくない
+条件部をmethod化してbreak if 条件節みたいな書き方をする
+rubyでは変数名を省略しないほうがいい
+
+再帰を勉強するにはlispの勉強がいい
+
+camel caseではなくて、snake case
+getPivotではなくて、get_pivot さらにpivotにすべし
+
+calc_pivotのほうがいいかも
+privateを宣言すればいい
+
+search_leftだとpositionを返すのかオブジェクトを返すのか分かりにくい
+
+2スペースにすべし
+
+left, right = swapの結果の配列をそれぞれ値を渡してくれる
+else節をつける
+
+search_leftは1行で書けるのでは？
+
+黒魔術とかにはコメントをつける
+
+takaiさんのブログをよみなさい
+
+specはpublicメソッドのみを記述すべし
+
